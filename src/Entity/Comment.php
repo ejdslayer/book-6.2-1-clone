@@ -160,6 +160,7 @@ class Comment
     public function setState(string $state): self
     {
         $this->state = $state;
+        $state = $state
 
         return $this;
     }
